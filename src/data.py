@@ -2,9 +2,7 @@ from pathlib import Path
 import pandas as pd
 
 DATA_DIR = Path(__file__).parent.parent / "data_parquet_2026"
-OUTPUTS_DIR = Path(__file__).parent.parent / "outputs"
-FIG_DIR = OUTPUTS_DIR / "figures"
-SUBMISSIONS_DIR = Path(__file__).parent.parent / "submissions"
+FIG_DIR  = Path(__file__).parent.parent / "outputs" / "figures"
 
 SECONDS_PER_YEAR = 365.25 * 24 * 3600
 
